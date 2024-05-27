@@ -1,0 +1,47 @@
+// @import "./fonts.   ";
+$gray: #6B6B6C;
+$pale_black: #363738;
+$dark_green: #0B7572;
+$carrot_color: #FF9619;
+
+.hero {
+    .hero_box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 80px;
+        padding: 109px 67px;
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .vostoka_title {
+                font-family: "Exo2-SemiBold";
+                font-size: 52px;
+                font-weight: 600;
+                line-height: 65px;
+            }
+
+            .text_hero {
+                font-family: "PTSans-Regular";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: $gray;
+            }
+
+            .katta_text {
+                font-family: "PTSans-Bold";
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+            }
+        }
+
+        .div2 {
+            width: 635px;
+            height: 505px;
+        }
+    }
+}

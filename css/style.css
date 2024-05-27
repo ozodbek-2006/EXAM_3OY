@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Exo2-Medium";
+  src: url("../fonts/Exo2-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Exo2-SemiBold";
+  src: url("../fonts/Raleway-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url(../fonts/Raleway-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("../fonts/Raleway-SemiBold.ttf");
+  font-weight: 600;
+}
+.hero .hero_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+  padding: 109px 67px;
+}
+.hero .hero_box .div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.hero .hero_box .div1 .vostoka_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+}
+.hero .hero_box .div1 .text_hero {
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6B6B6C;
+}
+.hero .hero_box .div1 .katta_text {
+  font-family: "PTSans-Bold";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.hero .hero_box .div2 {
+  width: 635px;
+  height: 505px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}/*# sourceMappingURL=style.css.map */
