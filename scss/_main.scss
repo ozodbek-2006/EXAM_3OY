@@ -815,41 +815,9 @@ $carrot_color: #FF9619;
                 }
             }
 
-            .works_3 {
-                width: 690px;
-                border-radius: 10px;
-                box-shadow: 0px 4px 15px 0px #0000001F;
-
-                img {
-                    width: 690px;
-                    height: 247px;
-                }
-
-                .works_title {
-                    padding: 24px 0px 0px 32px;
-                    font-family: "Exo2-SemiBold";
-                    font-size: 20px;
-                    font-weight: 600;
-                    line-height: 27px;
-                }
-
-                .works_text {
-                    padding: 24px 0px 0px 32px;
-                    font-family: "PTSans-Regular";
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 24px;
-                    color: $gray;
-                }
-
-                .work_number {
-                    padding: 24px 0px 0px 32px;
-                    font-family: "Exo2-SemiBold";
-                    font-size: 16px;
-                    font-weight: 600;
-                    line-height: 21.6px;
-                }
-            }
+          .works_3 {
+            display: none;
+          }
         }
 
         .main_box4 {
