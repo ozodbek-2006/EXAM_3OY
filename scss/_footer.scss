@@ -2,3 +2,292 @@ $gray: #6B6B6C;
 $pale_black: #363738;
 $dark_green: #0B7572;
 $carrot_color: #FF9619;
+
+.footer {
+    width: 100%;
+    height: 365px;
+    background-color: $dark_green;
+    padding: 60px 95px;
+
+    .footer_box {
+        display: flex;
+        flex-direction: row;
+        gap: 130px;
+        .links_a {
+            display: flex;
+            flex-direction: row;
+            gap: 97px;
+        }
+        .logo_div {
+            .logo_title {
+                font-family: "FamiljenGrotesk-Medium";
+                font-size: 60px;
+                font-weight: 500;
+                line-height: 90px;
+                letter-spacing: 0.16em;
+                color: #FFFFFF;
+            }
+        }
+
+        .katalog_div {
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            .a_link {
+                font-family: "Exo2-Medium";
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 19.5px;
+                letter-spacing: 0.16em;
+                color: #FFFFFF;
+            }
+        }
+
+        .model_div {
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            .a_link {
+                font-family: "Exo2-Medium";
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 19.5px;
+                letter-spacing: 0.16em;
+                color: #FFFFFF;
+            }
+        }
+
+        .tarmoq_div {
+            padding-top: 20px;
+
+            .icons {
+                display: flex;
+                flex-direction: row;
+                gap: 14px;
+                align-items: center;
+            }
+
+            .number_phone {
+                padding-top: 32px;
+                font-family: "Exo2-SemiBold";
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 19.5px;
+                color: #FFFFFF;
+            }
+
+            .consult {
+                margin-top: 32px;
+                width: 271px;
+                height: 42px;
+                border: 1px solid #FF9619;
+                background-color: #FF9619;
+                color: #FFFFFF;
+                font-family: "OpenSans-SemiBold";
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 19.5px;
+                padding: 7px 8px 7px 11px;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        width: 100%;
+        height: 365px;
+        background-color: $dark_green;
+        padding: 60px 95px;
+        .links_a {
+            display: flex;
+            flex-direction: row;
+            gap: 74px;
+        }
+        .footer_box {
+            display: flex;
+            flex-direction: row;
+            gap: 71px;
+    
+            .logo_div {
+                .logo_title {
+                    font-family: "FamiljenGrotesk-Medium";
+                    font-size: 30px;
+                    font-weight: 500;
+                    line-height: 90px;
+                    letter-spacing: 0.16em;
+                    color: #FFFFFF;
+                }
+            }
+    
+            .katalog_div {
+                padding-top: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+    
+                .a_link {
+                    font-family: "Exo2-Medium";
+                    font-size: 8px;
+                    font-weight: 500;
+                    line-height: 19.5px;
+                    letter-spacing: 0.16em;
+                    color: #FFFFFF;
+                }
+            }
+    
+            .model_div {
+                padding-top: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+    
+                .a_link {
+                    font-family: "Exo2-Medium";
+                    font-size: 8px;
+                    font-weight: 500;
+                    line-height: 19.5px;
+                    letter-spacing: 0.16em;
+                    color: #FFFFFF;
+                }
+            }
+    
+            .tarmoq_div {
+                padding-top: 20px;
+    
+                .icons {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 14px;
+                    align-items: center;
+                }
+    
+                .number_phone {
+                    padding-top: 32px;
+                    font-family: "Exo2-SemiBold";
+                    font-size: 8px;
+                    font-weight: 600;
+                    line-height: 19.5px;
+                    color: #FFFFFF;
+                }
+    
+                .consult {
+                    margin-top: 32px;
+                    width: 143px;
+                    height: 21px;
+                    border: 1px solid #FF9619;
+                    background-color: #FF9619;
+                    color: #FFFFFF;
+                    font-family: "OpenSans-SemiBold";
+                    font-size: 6px;
+                    font-weight: 600;
+                    line-height: 19.5px;
+                    padding: 0px 6px;
+                }
+            }
+    
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .footer {
+        width: 100%;
+        height: 631px;
+        background-color: $dark_green;
+        padding: 14px 45px;
+    
+        .footer_box {
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+            .links_a {
+                display: flex;
+                flex-direction: row;
+                gap: 60px;
+            }
+            .logo_div {
+                .logo_title {
+                    font-family: "FamiljenGrotesk-Medium";
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 90px;
+                    letter-spacing: 0.16em;
+                    color: #FFFFFF;
+                }
+            }
+    
+            .katalog_div {
+                padding-top: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+    
+                .a_link {
+                    font-family: "Exo2-Medium";
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 19.5px;
+                    letter-spacing: 0.16em;
+                    color: #FFFFFF;
+                }
+            }
+    
+            .model_div {
+                padding-top: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+    
+                .a_link {
+                    font-family: "Exo2-Medium";
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 19.5px;
+                    letter-spacing: 0.16em;
+                    color: #FFFFFF;
+                }
+            }
+    
+            .tarmoq_div {
+                padding-top: 20px;
+    
+                .icons {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 14px;
+                    align-items: center;
+                }
+    
+                .number_phone {
+                    padding-top: 32px;
+                    font-family: "Exo2-SemiBold";
+                    font-size: 13px;
+                    font-weight: 600;
+                    line-height: 19.5px;
+                    color: #FFFFFF;
+                }
+    
+                .consult {
+                    margin-top: 32px;
+                    width: 271px;
+                    height: 42px;
+                    border: 1px solid #FF9619;
+                    background-color: #FF9619;
+                    color: #FFFFFF;
+                    font-family: "OpenSans-SemiBold";
+                    font-size: 13px;
+                    font-weight: 600;
+                    line-height: 19.5px;
+                    padding: 7px 8px 7px 11px;
+                }
+            }
+    
+        }
+    }
+}

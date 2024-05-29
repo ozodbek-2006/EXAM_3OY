@@ -9,20 +9,8 @@ $carrot_color: #FF9619;
     .main_box {
         width: 1240px;
         height: 453px;
-        background-image: url(../img/Rectangle\ 7.png);
 
-        .main_title1 {
-            font-family: "Exo2-SemiBold";
-            font-size: 48px;
-            font-weight: 600;
-            line-height: 60px;
-            color: #FFFFFF;
-            padding: 178px 90px 166px;
-            background-color: $dark_green;
-            width: 769px;
-            height: 453.5px;
-            border-radius: 0px 85% 0px 0px;
-        }
+
     }
 
     .main_box2 {
@@ -182,9 +170,10 @@ $carrot_color: #FF9619;
             color: $gray;
             padding-bottom: 32px;
         }
+
         .works_div {
             display: grid;
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(3, 1fr);
         }
 
         .works_1 {
@@ -223,6 +212,7 @@ $carrot_color: #FF9619;
                 line-height: 21.6px;
             }
         }
+
         .works_2 {
             width: 393px;
             height: 439px;
@@ -259,6 +249,7 @@ $carrot_color: #FF9619;
                 line-height: 21.6px;
             }
         }
+
         .works_3 {
             width: 393px;
             height: 439px;
@@ -296,6 +287,410 @@ $carrot_color: #FF9619;
             }
         }
     }
+
+    .main_box4 {
+        margin-top: 212px;
+        background-color: $dark_green;
+        height: 917px;
+        border: 1px solid #00000038;
+        padding: 85px 66px 85px 81px;
+        display: flex;
+        flex-direction: row;
+        gap: 110px;
+
+        .div1_text {
+            .client_title {
+                font-family: "Exo2-SemiBold";
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                color: #FFFFFF;
+            }
+        }
+
+        .div2_table {
+            width: 652px;
+            height: 747px;
+            background-color: #FFFFFF;
+            padding: 28px 32px 32px 32px;
+
+            .logo_texts {
+                display: flex;
+                flex-direction: row;
+                gap: 194px;
+                border-bottom: 1px solid #D7D7DD;
+                padding-bottom: 32px;
+
+                .about_table_text {
+                    font-family: "PTSans-Regular";
+                    font-size: 11px;
+                    font-weight: 400;
+                    line-height: 16.5px;
+                    color: $gray;
+                }
+            }
+
+            .tables {
+                padding-top: 32px;
+
+                .table {
+                    .tr1 {
+                        background-color: $dark_green;
+
+                        .th_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            color: #FFFFFF;
+                            padding: 10px 32px;
+                        }
+                    }
+
+                    .tr2 {
+                        .border {
+                            border-right: 1px solid #00000033;
+                            border-bottom: 1px solid #D7D7DD;
+                        }
+
+                        .td_loremText {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 18.9px;
+                            color: $gray;
+                            padding-left: 25px;
+                        }
+
+                        .rubl_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 18.9px;
+                            color: black;
+                        }
+
+                        .zavod_text {
+                            padding: 25px 23px 40px 16px;
+
+                            .zavod_title {
+                                font-family: "PTSans-Bold";
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 18.9px;
+                                padding-bottom: 10px;
+                            }
+
+                            .zavod_about {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                            }
+                        }
+
+                        .contact_texts {
+                            padding: 0px 5px 0px 5px;
+
+                            .name_title {
+                                font-family: "PTSans-Bold";
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 18.9px;
+                                padding-bottom: 10px;
+                            }
+
+                            .about_contact {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                                padding-bottom: 10px;
+                            }
+
+                            .number_contact {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+
+                            }
+                        }
+                    }
+
+                    .tr3 {
+                        .border {
+                            border-right: 1px solid #00000033;
+                            border-bottom: 1px solid #D7D7DD;
+                        }
+
+                        .td_loremText {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 18.9px;
+                            color: $gray;
+                            padding-left: 25px;
+                        }
+
+                        .rubl_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 18.9px;
+                            color: black;
+                        }
+
+                        .zavod_text {
+                            padding: 25px 23px 40px 16px;
+
+                            .zavod_title {
+                                font-family: "PTSans-Bold";
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 18.9px;
+                                padding-bottom: 10px;
+                            }
+
+                            .zavod_about {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                            }
+                        }
+
+                        .contact_texts {
+                            padding: 0px 5px 0px 5px;
+
+                            .name_title {
+                                font-family: "PTSans-Bold";
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 18.9px;
+                                padding-bottom: 10px;
+                            }
+
+                            .about_contact {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                                padding-bottom: 10px;
+                            }
+
+                            .number_contact {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+
+                            }
+                        }
+                    }
+
+                    .tr4 {
+                        .border {
+                            border-right: 1px solid #00000033;
+                            border-bottom: 1px solid #D7D7DD;
+                        }
+
+                        .td_loremText {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 18.9px;
+                            color: $gray;
+                            padding-left: 25px;
+                        }
+
+                        .rubl_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 18.9px;
+                            color: black;
+                        }
+
+                        .zavod_text {
+                            padding: 25px 23px 40px 16px;
+
+                            .zavod_title {
+                                font-family: "PTSans-Bold";
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 18.9px;
+                                padding-bottom: 10px;
+                            }
+
+                            .zavod_about {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                            }
+                        }
+
+                        .contact_texts {
+                            padding: 0px 5px 0px 5px;
+
+                            .name_title {
+                                font-family: "PTSans-Bold";
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 18.9px;
+                                padding-bottom: 10px;
+                            }
+
+                            .about_contact {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                                padding-bottom: 10px;
+                            }
+
+                            .number_contact {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .main_box5 {
+        margin-top: 120px;
+
+        .stages_title {
+            font-family: "Exo2-SemiBold";
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            padding-bottom: 48px;
+
+        }
+
+        .stages_divs {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .stages_1 {
+                padding: 32px 96px;
+                display: flex;
+                flex-direction: row;
+                gap: 56px;
+                align-items: center;
+                width: 1183px;
+                height: 245px;
+                box-shadow: 0px 4px 15px 0px #0000001F;
+                border-radius: 20px;
+
+                .texts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+
+                    .title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+
+                    .lorem_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: $gray;
+                    }
+                }
+
+            }
+
+            .stages_2 {
+                padding: 32px 96px;
+                display: flex;
+                flex-direction: row;
+                gap: 56px;
+                align-items: center;
+                width: 1183px;
+                height: 245px;
+                box-shadow: 0px 4px 15px 0px #0000001F;
+                border-radius: 20px;
+
+                .texts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+
+                    .title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+
+                    .lorem_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: $gray;
+                    }
+                }
+
+            }
+
+            .stages_3 {
+                padding: 32px 96px;
+                display: flex;
+                flex-direction: row;
+                gap: 56px;
+                align-items: center;
+                width: 1183px;
+                height: 245px;
+                box-shadow: 0px 4px 15px 0px #0000001F;
+                border-radius: 20px;
+
+                .texts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+
+                    .title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+
+                    .lorem_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: $gray;
+                    }
+                }
+
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -305,19 +700,10 @@ $carrot_color: #FF9619;
         .main_box {
             width: 729px;
             height: 383px;
-            background-image: url(../img/Rectangle\ 7.png);
 
-            .main_title1 {
-                font-family: "Exo2-SemiBold";
-                font-size: 48px;
-                font-weight: 600;
-                line-height: 60px;
-                color: #FFFFFF;
-                padding: 178px 90px 166px;
-                background-color: $dark_green;
-                width: 600px;
-                height: 383px;
-                border-radius: 0px 85% 0px 0px;
+            img {
+                width: 100%;
+                height: 100%;
             }
         }
 
@@ -328,9 +714,11 @@ $carrot_color: #FF9619;
             grid-template-columns: repeat(1, 1fr);
             gap: 60px;
         }
+
         .main_box3 {
             padding-top: 120px;
-    
+            padding-left: 30px;
+
             .works_title {
                 font-family: "Exo2-SemiBold";
                 font-size: 44px;
@@ -339,7 +727,7 @@ $carrot_color: #FF9619;
                 color: $pale_black;
                 padding-bottom: 32px;
             }
-    
+
             .about_works {
                 font-family: "PTSans-Regular";
                 font-size: 16px;
@@ -348,22 +736,23 @@ $carrot_color: #FF9619;
                 color: $gray;
                 padding-bottom: 32px;
             }
+
             .works_div {
                 display: grid;
-                grid-template-columns: repeat(1,1fr);
+                grid-template-columns: repeat(1, 1fr);
                 gap: 32px;
             }
-    
+
             .works_1 {
                 width: 690px;
                 border-radius: 10px;
                 box-shadow: 0px 4px 15px 0px #0000001F;
-    
+
                 img {
                     width: 690px;
                     height: 247px;
                 }
-    
+
                 .works_title {
                     padding: 24px 0px 0px 32px;
                     font-family: "Exo2-SemiBold";
@@ -371,7 +760,7 @@ $carrot_color: #FF9619;
                     font-weight: 600;
                     line-height: 27px;
                 }
-    
+
                 .works_text {
                     padding: 24px 0px 0px 32px;
                     font-family: "PTSans-Regular";
@@ -380,7 +769,7 @@ $carrot_color: #FF9619;
                     line-height: 24px;
                     color: $gray;
                 }
-    
+
                 .work_number {
                     padding: 24px 0px 0px 32px;
                     font-family: "Exo2-SemiBold";
@@ -389,16 +778,17 @@ $carrot_color: #FF9619;
                     line-height: 21.6px;
                 }
             }
+
             .works_2 {
                 width: 690px;
                 border-radius: 10px;
                 box-shadow: 0px 4px 15px 0px #0000001F;
-    
+
                 img {
                     width: 690px;
                     height: 247px;
                 }
-    
+
                 .works_title {
                     padding: 24px 0px 0px 32px;
                     font-family: "Exo2-SemiBold";
@@ -406,7 +796,7 @@ $carrot_color: #FF9619;
                     font-weight: 600;
                     line-height: 27px;
                 }
-    
+
                 .works_text {
                     padding: 24px 0px 0px 32px;
                     font-family: "PTSans-Regular";
@@ -415,7 +805,7 @@ $carrot_color: #FF9619;
                     line-height: 24px;
                     color: $gray;
                 }
-    
+
                 .work_number {
                     padding: 24px 0px 0px 32px;
                     font-family: "Exo2-SemiBold";
@@ -424,16 +814,17 @@ $carrot_color: #FF9619;
                     line-height: 21.6px;
                 }
             }
+
             .works_3 {
                 width: 690px;
                 border-radius: 10px;
                 box-shadow: 0px 4px 15px 0px #0000001F;
-    
+
                 img {
                     width: 690px;
                     height: 247px;
                 }
-    
+
                 .works_title {
                     padding: 24px 0px 0px 32px;
                     font-family: "Exo2-SemiBold";
@@ -441,7 +832,7 @@ $carrot_color: #FF9619;
                     font-weight: 600;
                     line-height: 27px;
                 }
-    
+
                 .works_text {
                     padding: 24px 0px 0px 32px;
                     font-family: "PTSans-Regular";
@@ -450,7 +841,7 @@ $carrot_color: #FF9619;
                     line-height: 24px;
                     color: $gray;
                 }
-    
+
                 .work_number {
                     padding: 24px 0px 0px 32px;
                     font-family: "Exo2-SemiBold";
@@ -461,5 +852,1064 @@ $carrot_color: #FF9619;
             }
         }
 
+        .main_box4 {
+            margin-top: 212px;
+            background-color: $dark_green;
+            height: 971px;
+            width: 760px;
+            border: 1px solid #00000038;
+            padding: 64px 42px 64px 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 110px;
+
+            .div1_text {
+                .client_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 60px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .div2_table {
+                width: 652px;
+                height: 747px;
+                background-color: #FFFFFF;
+                padding: 28px 32px 32px 32px;
+
+                .logo_texts {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 194px;
+                    border-bottom: 1px solid #D7D7DD;
+                    padding-bottom: 32px;
+
+                    .about_table_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 11px;
+                        font-weight: 400;
+                        line-height: 16.5px;
+                        color: $gray;
+                    }
+                }
+
+                .tables {
+                    padding-top: 32px;
+
+                    .table {
+                        .tr1 {
+                            background-color: $dark_green;
+
+                            .th_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 24px;
+                                color: #FFFFFF;
+                                padding: 10px 32px;
+                            }
+                        }
+
+                        .tr2 {
+                            .border {
+                                border-right: 1px solid #00000033;
+                                border-bottom: 1px solid #D7D7DD;
+                            }
+
+                            .td_loremText {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                                padding-left: 25px;
+                            }
+
+                            .rubl_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 18.9px;
+                                color: black;
+                            }
+
+                            .zavod_text {
+                                padding: 25px 23px 40px 16px;
+
+                                .zavod_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .zavod_about {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                }
+                            }
+
+                            .contact_texts {
+                                padding: 0px 5px 0px 5px;
+
+                                .name_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .about_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                    padding-bottom: 10px;
+                                }
+
+                                .number_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+
+                                }
+                            }
+                        }
+
+                        .tr3 {
+                            .border {
+                                border-right: 1px solid #00000033;
+                                border-bottom: 1px solid #D7D7DD;
+                            }
+
+                            .td_loremText {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                                padding-left: 25px;
+                            }
+
+                            .rubl_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 18.9px;
+                                color: black;
+                            }
+
+                            .zavod_text {
+                                padding: 25px 23px 40px 16px;
+
+                                .zavod_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .zavod_about {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                }
+                            }
+
+                            .contact_texts {
+                                padding: 0px 5px 0px 5px;
+
+                                .name_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .about_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                    padding-bottom: 10px;
+                                }
+
+                                .number_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+
+                                }
+                            }
+                        }
+
+                        .tr4 {
+                            .border {
+                                border-right: 1px solid #00000033;
+                                border-bottom: 1px solid #D7D7DD;
+                            }
+
+                            .td_loremText {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                                padding-left: 25px;
+                            }
+
+                            .rubl_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 18.9px;
+                                color: black;
+                            }
+
+                            .zavod_text {
+                                padding: 25px 23px 40px 16px;
+
+                                .zavod_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .zavod_about {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                }
+                            }
+
+                            .contact_texts {
+                                padding: 0px 5px 0px 5px;
+
+                                .name_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .about_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                    padding-bottom: 10px;
+                                }
+
+                                .number_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .main_box5 {
+            margin-top: 120px;
+
+            .stages_title {
+                font-family: "Exo2-SemiBold";
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                padding-bottom: 48px;
+
+            }
+
+            .stages_divs {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+
+                .stages_1 {
+                    padding: 32px 96px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 56px;
+                    align-items: center;
+                    width: 693px;
+                    height: 245px;
+                    box-shadow: 0px 4px 15px 0px #0000001F;
+                    border-radius: 20px;
+
+                    img {
+                        display: none;
+                    }
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 40px;
+
+                        .title {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 25px;
+                        }
+
+                        .lorem_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            color: $gray;
+                        }
+                    }
+
+                }
+
+                .stages_2 {
+                    padding: 32px 96px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 56px;
+                    align-items: center;
+                    width: 690px;
+                    height: 245px;
+                    box-shadow: 0px 4px 15px 0px #0000001F;
+                    border-radius: 20px;
+
+                    img {
+                        display: none;
+                    }
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 40px;
+
+                        .title {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 25px;
+                        }
+
+                        .lorem_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            color: $gray;
+                        }
+                    }
+
+                }
+
+                .stages_3 {
+                    padding: 32px 96px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 56px;
+                    align-items: center;
+                    width: 690px;
+                    height: 245px;
+                    box-shadow: 0px 4px 15px 0px #0000001F;
+                    border-radius: 20px;
+
+                    img {
+                        display: none;
+                    }
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 40px;
+
+                        .title {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 25px;
+                        }
+
+                        .lorem_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            color: $gray;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .main {
+
+        .main_box {
+            display: none;
+
+
+        }
+
+        .main_box2 {
+            padding-top: 12px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 38px;
+            padding: 0px 15px;
+
+            .lock_div {
+                display: flex;
+                flex-direction: row;
+                gap: 16px;
+                align-items: center;
+
+                img {
+                    width: 52px;
+                    height: 52px;
+                }
+
+                .texts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    .lorem_title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 13px;
+                        font-weight: 600;
+                        line-height: 27px;
+                    }
+
+                    .lorem_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: $gray;
+                    }
+                }
+            }
+
+            .dollar_div {
+                display: flex;
+                flex-direction: row;
+                gap: 16px;
+                align-items: center;
+
+                img {
+                    width: 52px;
+                    height: 52px;
+                }
+
+                .texts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    .lorem_title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 13px;
+                        font-weight: 600;
+                        line-height: 27px;
+                    }
+
+                    .lorem_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: $gray;
+                    }
+                }
+            }
+
+            .table_div {
+                display: flex;
+                flex-direction: row;
+                gap: 16px;
+                align-items: center;
+
+                img {
+                    width: 52px;
+                    height: 52px;
+                }
+
+                .texts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    .lorem_title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 13px;
+                        font-weight: 600;
+                        line-height: 27px;
+                    }
+
+                    .lorem_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: $gray;
+                    }
+                }
+            }
+
+            .globe_div {
+                display: flex;
+                flex-direction: row;
+                gap: 16px;
+                align-items: center;
+
+                img {
+                    width: 52px;
+                    height: 52px;
+                }
+
+                .texts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    .lorem_title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 13px;
+                        font-weight: 600;
+                        line-height: 27px;
+                    }
+
+                    .lorem_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: $gray;
+                    }
+                }
+            }
+        }
+
+        .main_box3 {
+            padding-top: 72px;
+            padding-left: 15px;
+
+            .works_title {
+                font-family: "Exo2-SemiBold";
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 60px;
+                color: $pale_black;
+                padding-bottom: 32px;
+            }
+
+            .about_works {
+                font-family: "PTSans-Regular";
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 24px;
+                color: $gray;
+                padding-bottom: 32px;
+            }
+
+            .works_div {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .works_1 {
+                width: 345px;
+                height: 410px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #0000001F;
+
+                img {
+                    width: 345px;
+                    height: 222px;
+                }
+
+                .works_title {
+                    padding: 24px 0px 0px 32px;
+                    font-family: "Exo2-SemiBold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                }
+
+                .works_text {
+                    padding: 24px 0px 0px 32px;
+                    font-family: "PTSans-Regular";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: $gray;
+                }
+
+                .work_number {
+                    padding: 24px 0px 0px 32px;
+                    font-family: "Exo2-SemiBold";
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 21.6px;
+                }
+            }
+
+            .works_2 {
+                display: none;
+            }
+
+            .works_3 {
+                display: none;
+            }
+        }
+
+        .main_box4 {
+            margin-top: 212px;
+            background-color: $dark_green;
+            height: 850px;
+            width: 375px;
+            border: 1px solid #00000038;
+            padding: 32px 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .div1_text {
+                .client_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 60px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .div2_table {
+                background-color: #FFFFFF;
+                padding: 28px 32px 32px 32px;
+                width: 345px;
+                height: 507px;
+
+                .logo_texts {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 194px;
+                    border-bottom: 1px solid #D7D7DD;
+                    padding-bottom: 32px;
+
+                    .about_table_text {
+                        display: none;
+                    }
+                }
+
+                .tables {
+                    padding-top: 32px;
+
+                    .table {
+
+                        .tr1 {
+                            background-color: $dark_green;
+
+                            .th_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 24px;
+                                color: #FFFFFF;
+                                padding: 10px 32px;
+                            }
+
+                            .none {
+                                display: none;
+                            }
+                        }
+
+                        .tr2 {
+                            .none {
+                                display: none;
+                            }
+
+                            .border {
+                                border-right: 1px solid #00000033;
+                                border-bottom: 1px solid #D7D7DD;
+                            }
+
+                            .td_loremText {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                                padding-left: 25px;
+                            }
+
+                            .rubl_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 18.9px;
+                                color: black;
+                            }
+
+                            .zavod_text {
+                                padding: 25px 23px 40px 16px;
+
+                                .zavod_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .zavod_about {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                }
+                            }
+
+                            .contact_texts {
+                                padding: 0px 5px 0px 5px;
+
+                                .name_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .about_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                    padding-bottom: 10px;
+                                }
+
+                                .number_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+
+                                }
+                            }
+                        }
+
+                        .tr3 {
+                            .none {
+                                display: none;
+                            }
+
+                            .border {
+                                border-right: 1px solid #00000033;
+                                border-bottom: 1px solid #D7D7DD;
+                            }
+
+                            .td_loremText {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                                padding-left: 25px;
+                            }
+
+                            .rubl_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 18.9px;
+                                color: black;
+                            }
+
+                            .zavod_text {
+                                padding: 25px 23px 40px 16px;
+
+                                .zavod_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .zavod_about {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                }
+                            }
+
+                            .contact_texts {
+                                padding: 0px 5px 0px 5px;
+
+                                .name_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .about_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                    padding-bottom: 10px;
+                                }
+
+                                .number_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+
+                                }
+                            }
+                        }
+
+                        .tr4 {
+
+                            .none {
+                                display: none;
+                            }
+
+                            .border {
+                                border-right: 1px solid #00000033;
+                                border-bottom: 1px solid #D7D7DD;
+                            }
+
+                            .td_loremText {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                color: $gray;
+                                padding-left: 25px;
+                            }
+
+                            .rubl_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 18.9px;
+                                color: black;
+                            }
+
+                            .zavod_text {
+                                padding: 25px 23px 40px 16px;
+
+                                .zavod_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .zavod_about {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                }
+                            }
+
+                            .contact_texts {
+                                padding: 0px 5px 0px 5px;
+
+                                .name_title {
+                                    font-family: "PTSans-Bold";
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 18.9px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .about_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    color: $gray;
+                                    padding-bottom: 10px;
+                                }
+
+                                .number_contact {
+                                    font-family: "PTSans-Regular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .main_box5 {
+            margin-top: 120px;
+
+            .stages_title {
+                font-family: "Exo2-SemiBold";
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 60px;
+                padding-bottom: 48px;
+
+            }
+
+            .stages_divs {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+
+                .stages_1 {
+                    padding: 24px 47px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 56px;
+                    align-items: center;
+                    width: 338px;
+                    height: 176px;
+                    box-shadow: 0px 4px 15px 0px #0000001F;
+                    border-radius: 20px;
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+
+                        .title {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 22.5px;
+                        }
+
+                        .lorem_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 22.5px;
+                            color: $gray;
+                        }
+                    }
+
+                }
+
+                .stages_2 {
+                    padding: 24px 47px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 56px;
+                    align-items: center;
+                    width: 338px;
+                    height: 176px;
+                    box-shadow: 0px 4px 15px 0px #0000001F;
+                    border-radius: 20px;
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+
+                        .title {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 22.5px;
+                        }
+
+                        .lorem_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 22.5px;
+                            color: $gray;
+                        }
+                    }
+
+                }
+
+                .stages_3 {
+                    padding: 24px 47px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 56px;
+                    align-items: center;
+                    width: 338px;
+                    height: 176px;
+                    box-shadow: 0px 4px 15px 0px #0000001F;
+                    border-radius: 20px;
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+
+                        .title {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 22.5px;
+                        }
+
+                        .lorem_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 22.5px;
+                            color: $gray;
+                        }
+                    }
+
+                }
+            }
+        }
     }
 }

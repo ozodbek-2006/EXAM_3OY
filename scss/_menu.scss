@@ -2,3 +2,2021 @@ $gray: #6B6B6C;
 $pale_black: #363738;
 $dark_green: #0B7572;
 $carrot_color: #FF9619;
+
+.menu {
+    margin-top: 120px;
+
+    .menu_box {
+        .trust_title {
+            font-family: "Exo2-SemiBold";
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            padding-bottom: 90px;
+        }
+
+        .manual_divs {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 97px;
+
+            .border {
+                border-right: 1px solid #D7D7DD;
+                padding-right: 13px;
+            }
+
+            .manual_1 {
+                width: 304px;
+                height: 183px;
+                padding-left: 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+
+                img {
+
+                    padding-bottom: 10px;
+                }
+
+                .logo_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: center
+                }
+
+                .logo_text {
+                    font-family: "PTSans-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    text-align: center;
+                    color: $gray;
+                }
+            }
+
+            .manual_2 {
+                width: 304px;
+                height: 183px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+
+                img {
+
+                    padding-bottom: 10px;
+
+                }
+
+                .logo_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: center
+                }
+
+                .logo_text {
+                    font-family: "PTSans-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    text-align: center;
+                    color: $gray;
+                }
+            }
+
+            .manual_3 {
+                width: 304px;
+                height: 183px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+
+                img {
+
+                    padding-bottom: 10px;
+                }
+
+                .logo_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: center
+                }
+
+                .logo_text {
+                    font-family: "PTSans-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    text-align: center;
+                    color: $gray;
+                }
+            }
+
+            .manual_4 {
+                width: 304px;
+                height: 183px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+
+                img {
+
+                    padding-bottom: 10px;
+                }
+
+                .logo_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: center
+                }
+
+                .logo_text {
+                    font-family: "PTSans-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    text-align: center;
+                    color: $gray;
+                }
+            }
+
+            .manual_5 {
+                width: 304px;
+                height: 183px;
+                padding-left: 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+
+                img {
+
+                    padding-bottom: 10px;
+                }
+
+                .logo_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: center
+                }
+
+                .logo_text {
+                    font-family: "PTSans-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    text-align: center;
+                    color: $gray;
+                }
+            }
+
+            .manual_6 {
+                width: 304px;
+                height: 183px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+
+                img {
+
+                    padding-bottom: 10px;
+
+                }
+
+                .logo_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: center
+                }
+
+                .logo_text {
+                    font-family: "PTSans-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    text-align: center;
+                    color: $gray;
+                }
+            }
+
+            .manual_7 {
+                width: 304px;
+                height: 183px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+
+                img {
+
+                    padding-bottom: 10px;
+                }
+
+                .logo_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: center
+                }
+
+                .logo_text {
+                    font-family: "PTSans-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    text-align: center;
+                    color: $gray;
+                }
+            }
+
+            .manual_8 {
+                width: 304px;
+                height: 183px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+
+                img {
+
+                    padding-bottom: 10px;
+                }
+
+                .logo_title {
+                    font-family: "Exo2-SemiBold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: center
+                }
+
+                .logo_text {
+                    font-family: "PTSans-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    text-align: center;
+                    color: $gray;
+                }
+            }
+
+        }
+
+    }
+
+    .menu_box2 {
+        margin-top: 130px;
+
+        .company_title {
+            font-family: "Exo2-SemiBold";
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+
+        }
+
+        .company_divs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 24px;
+
+            .company_1 {
+                margin-top: 72px;
+                width: 605px;
+                height: 210px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #00000026;
+                display: flex;
+                flex-direction: row;
+                gap: 32px;
+                align-items: center;
+
+                .div1_company {
+                    width: 51px;
+                    height: 210px;
+                    background-color: $dark_green;
+                }
+
+                .div2_company {
+                    width: 138px;
+                    height: 138px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .div3_company {
+                    .title_name {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        padding-bottom: 12px;
+                    }
+
+                    .work_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: $gray;
+                        padding-bottom: 57px;
+                    }
+
+                    .tarmoq_icons {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        align-items: center;
+
+                    }
+                }
+            }
+
+            .company_2 {
+                margin-top: 72px;
+                width: 605px;
+                height: 210px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #00000026;
+                display: flex;
+                flex-direction: row;
+                gap: 32px;
+                align-items: center;
+
+                .div1_company {
+                    width: 51px;
+                    height: 210px;
+                    background-color: $dark_green;
+                }
+
+                .div2_company {
+                    width: 138px;
+                    height: 138px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .div3_company {
+                    .title_name {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        padding-bottom: 12px;
+                    }
+
+                    .work_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: $gray;
+                        padding-bottom: 57px;
+                    }
+
+                    .tarmoq_icons {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        align-items: center;
+
+                    }
+                }
+            }
+
+            .company_3 {
+                margin-top: 72px;
+                width: 605px;
+                height: 210px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #00000026;
+                display: flex;
+                flex-direction: row;
+                gap: 32px;
+                align-items: center;
+
+                .div1_company {
+                    width: 51px;
+                    height: 210px;
+                    background-color: $dark_green;
+                }
+
+                .div2_company {
+                    width: 138px;
+                    height: 138px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .div3_company {
+                    .title_name {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        padding-bottom: 12px;
+                    }
+
+                    .work_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: $gray;
+                        padding-bottom: 57px;
+                    }
+
+                    .tarmoq_icons {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        align-items: center;
+
+                    }
+                }
+            }
+
+            .company_4 {
+                margin-top: 72px;
+                width: 605px;
+                height: 210px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #00000026;
+                display: flex;
+                flex-direction: row;
+                gap: 32px;
+                align-items: center;
+
+                .div1_company {
+                    width: 51px;
+                    height: 210px;
+                    background-color: $dark_green;
+                }
+
+                .div2_company {
+                    width: 138px;
+                    height: 138px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .div3_company {
+                    .title_name {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        padding-bottom: 12px;
+                    }
+
+                    .work_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: $gray;
+                        padding-bottom: 57px;
+                    }
+
+                    .tarmoq_icons {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        align-items: center;
+
+                    }
+                }
+            }
+
+            .company_5 {
+                margin-top: 72px;
+                width: 605px;
+                height: 210px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #00000026;
+                display: flex;
+                flex-direction: row;
+                gap: 32px;
+                align-items: center;
+
+                .div1_company {
+                    width: 51px;
+                    height: 210px;
+                    background-color: $dark_green;
+                }
+
+                .div2_company {
+                    width: 138px;
+                    height: 138px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .div3_company {
+                    .title_name {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        padding-bottom: 12px;
+                    }
+
+                    .work_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: $gray;
+                        padding-bottom: 57px;
+                    }
+
+                    .tarmoq_icons {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        align-items: center;
+
+                    }
+                }
+            }
+
+            .company_6 {
+                margin-top: 72px;
+                width: 605px;
+                height: 210px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #00000026;
+                display: flex;
+                flex-direction: row;
+                gap: 32px;
+                align-items: center;
+
+                .div1_company {
+                    width: 51px;
+                    height: 210px;
+                    background-color: $dark_green;
+                }
+
+                .div2_company {
+                    width: 138px;
+                    height: 138px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .div3_company {
+                    .title_name {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        padding-bottom: 12px;
+                    }
+
+                    .work_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: $gray;
+                        padding-bottom: 57px;
+                    }
+
+                    .tarmoq_icons {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        align-items: center;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .menu_box3 {
+        margin-top: 130px;
+
+        .contact_title {
+            font-family: "Exo2-SemiBold";
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            padding-bottom: 94px;
+        }
+
+        .contact_divs {
+            display: flex;
+            flex-direction: row;
+            gap: 250px;
+
+            .div1 {
+                display: flex;
+                flex-direction: column;
+                gap: 44px;
+                padding-left: 50px;
+
+                .phone_div {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 36px;
+                    align-items: center;
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        .name_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                        }
+
+                        .phone_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                        }
+                    }
+                }
+
+                .email_div {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 36px;
+                    align-items: center;
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        .name_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                        }
+
+                        .phone_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                        }
+                    }
+                }
+
+                .whatsap_div {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 36px;
+                    align-items: center;
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        .name_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                        }
+
+                        .phone_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                        }
+                    }
+                }
+
+                .skype_div {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 36px;
+                    align-items: center;
+
+                    .texts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        .name_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                        }
+
+                        .phone_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+
+            .div2 {
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                border: 1px solid #E9EAF2;
+                background-color: #E9EAF2;
+                padding: 40px 48px;
+                width: 794px;
+
+                .Full_name {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                    padding-bottom: 16px;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 56px;
+
+                    .name_title {
+                        font-family: "PTSans-Regular";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: $gray;
+                    }
+
+                    .name_text {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20px;
+                    }
+                }
+
+                .code {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                    padding-bottom: 16px;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 56px;
+
+                    .name_title {
+                        font-family: "PTSans-Regular";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: $gray;
+                    }
+
+                    .name_text {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20px;
+                    }
+                }
+
+                .code_kpp {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                    padding-bottom: 16px;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 56px;
+
+                    .name_title {
+                        font-family: "PTSans-Regular";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: $gray;
+                    }
+
+                    .name_text {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20px;
+                    }
+                }
+
+                .code_ogrn {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                    padding-bottom: 16px;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 56px;
+
+                    .name_title {
+                        font-family: "PTSans-Regular";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: $gray;
+                    }
+
+                    .name_text {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20px;
+                    }
+                }
+
+                .addres {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                    padding-bottom: 16px;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 56px;
+
+                    .name_title {
+                        font-family: "PTSans-Regular";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: $gray;
+                    }
+
+                    .name_text {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .menu {
+        .menu_box {
+            .border {
+                border-right: 1px solid #D7D7DD;
+                padding-right: 13px;
+                row-gap: 0px;
+            }
+
+            .manual_divs {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+            }
+
+        }
+
+        .menu_box2 {
+
+            .company_divs {
+
+                .company_1 {
+
+                    width: 330px;
+                    height: 279px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .div1_company {
+                        width: 51px;
+                        height: 287px;
+                        background-color: $dark_green;
+                        border-radius: 10px 0px 0px 10px;
+                    }
+
+                    .div2_company {
+                        width: 108px;
+                        height: 108px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .div3_company {
+                        .title_name {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            padding-bottom: 12px;
+                        }
+
+                        .work_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                            padding-bottom: 27px;
+                        }
+
+                        .tarmoq_icons {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 20px;
+                            align-items: center;
+
+                        }
+                    }
+                }
+
+                .company_2 {
+
+                    width: 330px;
+                    height: 279px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .div1_company {
+                        width: 51px;
+                        height: 287px;
+                        background-color: $dark_green;
+                        border-radius: 10px 0px 0px 10px;
+                    }
+
+                    .div2_company {
+                        width: 108px;
+                        height: 108px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .div3_company {
+                        .title_name {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            padding-bottom: 12px;
+                        }
+
+                        .work_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                            padding-bottom: 27px;
+                        }
+
+                        .tarmoq_icons {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 20px;
+                            align-items: center;
+
+                        }
+                    }
+                }
+
+                .company_3 {
+
+                    width: 330px;
+                    height: 279px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .div1_company {
+                        width: 51px;
+                        height: 287px;
+                        background-color: $dark_green;
+                        border-radius: 10px 0px 0px 10px;
+                    }
+
+                    .div2_company {
+                        width: 108px;
+                        height: 108px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .div3_company {
+                        .title_name {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            padding-bottom: 12px;
+                        }
+
+                        .work_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                            padding-bottom: 27px;
+                        }
+
+                        .tarmoq_icons {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 20px;
+                            align-items: center;
+
+                        }
+                    }
+                }
+
+                .company_4 {
+
+                    width: 330px;
+                    height: 279px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .div1_company {
+                        width: 51px;
+                        height: 287px;
+                        background-color: $dark_green;
+                        border-radius: 10px 0px 0px 10px;
+                    }
+
+                    .div2_company {
+                        width: 108px;
+                        height: 108px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .div3_company {
+                        .title_name {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            padding-bottom: 12px;
+                        }
+
+                        .work_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                            padding-bottom: 27px;
+                        }
+
+                        .tarmoq_icons {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 20px;
+                            align-items: center;
+
+                        }
+                    }
+                }
+
+                .company_5 {
+                    display: none;
+                }
+
+                .company_6 {
+                    display: none;
+                }
+            }
+        }
+
+        .menu_box3 {
+            margin-top: 130px;
+
+            .contact_title {
+                font-family: "Exo2-SemiBold";
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                padding-bottom: 94px;
+            }
+
+            .contact_divs {
+                display: flex;
+                flex-direction: column;
+                gap: 100px;
+
+                .div1 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 44px;
+                    padding-left: 50px;
+
+                    .phone_div {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 36px;
+                        align-items: center;
+
+                        .texts {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+
+                            .name_text {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                color: $gray;
+                            }
+
+                            .phone_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+
+                    .email_div {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 36px;
+                        align-items: center;
+
+                        .texts {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+
+                            .name_text {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                color: $gray;
+                            }
+
+                            .phone_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+
+                    .whatsap_div {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 36px;
+                        align-items: center;
+
+                        .texts {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+
+                            .name_text {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                color: $gray;
+                            }
+
+                            .phone_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+
+                    .skype_div {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 36px;
+                        align-items: center;
+
+                        .texts {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+
+                            .name_text {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                color: $gray;
+                            }
+
+                            .phone_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+
+                .div2 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+                    border: 1px solid #E9EAF2;
+                    background-color: #E9EAF2;
+                    padding: 40px 48px;
+                    width: 734px;
+
+                    .Full_name {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 56px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+
+                    .code {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 56px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+
+                    .code_kpp {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 56px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+
+                    .code_ogrn {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 56px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+
+                    .addres {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 56px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .menu {
+        margin-top: 120px;
+
+        .menu_box {
+            .trust_title {
+                font-family: "Exo2-SemiBold";
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 35px;
+            }
+
+            .manual_divs {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                row-gap: 97px;
+
+                .border {
+                    border-right: 1px solid #D7D7DD;
+                    padding-right: 13px;
+                }
+
+                .manual_1 {
+                    width: 234px;
+                    height: 183px;
+                    padding-left: 0px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    align-items: center;
+
+                    img {
+
+                        padding-bottom: 10px;
+                    }
+
+                    .logo_title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 27px;
+                        text-align: center
+                    }
+
+                    .logo_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        text-align: center;
+                        color: $gray;
+                    }
+                }
+
+                .manual_2 {
+                    width: 234px;
+                    height: 183px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    align-items: center;
+
+                    img {
+
+                        padding-bottom: 10px;
+
+                    }
+
+                    .logo_title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 27px;
+                        text-align: center
+                    }
+
+                    .logo_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        text-align: center;
+                        color: $gray;
+                    }
+                }
+
+                .manual_3 {
+                    width: 224px;
+                    height: 183px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    align-items: center;
+
+                    img {
+
+                        padding-bottom: 10px;
+                    }
+
+                    .logo_title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 27px;
+                        text-align: center
+                    }
+
+                    .logo_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        text-align: center;
+                        color: $gray;
+                    }
+                }
+
+                .manual_4 {
+                    width: 214px;
+                    height: 183px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    align-items: center;
+
+                    img {
+
+                        padding-bottom: 10px;
+                    }
+
+                    .logo_title {
+                        font-family: "Exo2-SemiBold";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 27px;
+                        text-align: center
+                    }
+
+                    .logo_text {
+                        font-family: "PTSans-Regular";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        text-align: center;
+                        color: $gray;
+                    }
+                }
+
+                .manual_5 {
+                    display: none;
+                }
+
+                .manual_6 {
+                    display: none;
+                }
+
+                .manual_7 {
+                    display: none;
+                }
+
+                .manual_8 {
+                    display: none;
+                }
+
+            }
+
+        }
+
+        .menu_box2 {
+            margin-top: 130px;
+
+            .company_title {
+                font-family: "Exo2-SemiBold";
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 35px;
+
+            }
+
+            .company_divs {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                row-gap: 24px;
+
+                .company_1 {
+                    margin-top: 72px;
+                    width: 345px;
+                    border-radius: 10px;
+                    box-shadow: 0px 4px 15px 0px #00000026;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 32px;
+                    align-items: center;
+
+                    .div1_company {
+                        width: 51px;
+                        height: 275px;
+                        background-color: $dark_green;
+                    }
+
+                    .div2_company {
+                        width: 100px;
+                        height: 100px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .div3_company {
+                        .title_name {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 21.6px;
+                            padding-bottom: 12px;
+                        }
+
+                        .work_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                            padding-bottom: 57px;
+                        }
+
+                        .tarmoq_icons {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 20px;
+                            align-items: center;
+
+                        }
+                    }
+                }
+
+                .company_2 {
+                    margin-top: 72px;
+                    width: 345px;
+                    border-radius: 10px;
+                    box-shadow: 0px 4px 15px 0px #00000026;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 32px;
+                    align-items: center;
+
+                    .div1_company {
+                        width: 51px;
+                        height: 275px;
+                        background-color: $dark_green;
+                    }
+
+                    .div2_company {
+                        width: 100px;
+                        height: 100px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .div3_company {
+                        .title_name {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 21.6px;
+                            padding-bottom: 12px;
+                        }
+
+                        .work_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                            padding-bottom: 57px;
+                        }
+
+                        .tarmoq_icons {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 20px;
+                            align-items: center;
+
+                        }
+                    }
+                }
+
+                .company_3 {
+                    margin-top: 72px;
+                    width: 345px;
+                    border-radius: 10px;
+                    box-shadow: 0px 4px 15px 0px #00000026;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 32px;
+                    align-items: center;
+
+                    .div1_company {
+                        width: 51px;
+                        height: 275px;
+                        background-color: $dark_green;
+                    }
+
+                    .div2_company {
+                        width: 100px;
+                        height: 100px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .div3_company {
+                        .title_name {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 21.6px;
+                            padding-bottom: 12px;
+                        }
+
+                        .work_text {
+                            font-family: "PTSans-Regular";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $gray;
+                            padding-bottom: 57px;
+                        }
+
+                        .tarmoq_icons {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 20px;
+                            align-items: center;
+
+                        }
+                    }
+                }
+                .company_4 {
+                    display: none;
+                }
+                .company_5 {
+                    display: none;
+                }
+                .company_6 {
+                    display: none;
+                }
+                
+            }
+        }
+
+        .menu_box3 {
+            margin-top: 130px;
+
+            .contact_title {
+                font-family: "Exo2-SemiBold";
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 35px;
+                padding-bottom: 94px;
+            }
+
+            .contact_divs {
+                display: flex;
+                flex-direction: column;
+                gap: 72px;
+
+                .div1 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 44px;
+                    padding-left: 50px;
+
+                    .phone_div {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 36px;
+                        align-items: center;
+
+                        .texts {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+
+                            .name_text {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                color: $gray;
+                            }
+
+                            .phone_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+
+                    .email_div {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 36px;
+                        align-items: center;
+
+                        .texts {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+
+                            .name_text {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                color: $gray;
+                            }
+
+                            .phone_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+
+                    .whatsap_div {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 36px;
+                        align-items: center;
+
+                        .texts {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+
+                            .name_text {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                color: $gray;
+                            }
+
+                            .phone_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+
+                    .skype_div {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 36px;
+                        align-items: center;
+
+                        .texts {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+
+                            .name_text {
+                                font-family: "PTSans-Regular";
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                color: $gray;
+                            }
+
+                            .phone_text {
+                                font-family: "Exo2-SemiBold";
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+
+                .div2 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+                    border: 1px solid #E9EAF2;
+                    background-color: #E9EAF2;
+                    padding: 40px 48px;
+                    width: 345px;
+
+                    .Full_name {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 14px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+
+                    .code {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 14px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+
+                    .code_kpp {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 14px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+
+                    .code_ogrn {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 14px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+
+                    .addres {
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+                        padding-bottom: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 14px;
+
+                        .name_title {
+                            font-family: "PTSans-Regular";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: $gray;
+                        }
+
+                        .name_text {
+                            font-family: "Exo2-SemiBold";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

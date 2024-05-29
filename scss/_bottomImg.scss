@@ -2,3 +2,57 @@ $gray: #6B6B6C;
 $pale_black: #363738;
 $dark_green: #0B7572;
 $carrot_color: #FF9619;
+
+.bottomIMg {
+    margin: 46px 130px;
+
+    .play_icon {
+        position: absolute;
+        top: 7713px;
+        left: 687px;
+
+    }
+
+    .play_icons {
+        position: absolute;
+        top: 7728px;
+        left: 707px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bottomIMg {
+        margin: 46px 64px;
+
+        .botom_img {
+            width: 675px;
+            height: 405px;
+        }
+
+        .play_icon {
+           display: none;
+        }
+
+        .play_icons {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .bottomIMg {
+        margin: 20px 22px;
+        .botom_img {
+            width: 327px;
+            height: 196px;
+        }
+        .play_icon {
+           display: none;
+    
+        }
+    
+        .play_icons {
+            display: none;
+        }
+    }
+}

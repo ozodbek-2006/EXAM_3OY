@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Exo2-Medium";
-  src: url(../fonts/Exo2-Medium.ttf);
+  src: url(../fonts/exo-2-v21-cyrillic_latin-500.woff2);
   font-weight: 500;
 }
 @font-face {
   font-family: "Exo2-SemiBold";
-  src: url(../fonts/Raleway-Bold.ttf);
+  src: url(../fonts/exo-2-v21-cyrillic_latin-600.woff2);
   font-weight: 700;
 }
 @font-face {
   font-family: "Raleway-Medium";
-  src: url(../fonts/Raleway-Medium.ttf);
+  src: url(../fonts/open-sans-v40-latin-600.woff2);
   font-weight: 500;
 }
 @font-face {
@@ -188,6 +188,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
   }
   .hero .hero_box2 .div1 {
     width: 580px;
@@ -271,13 +274,11 @@
     color: #6B6B6C;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .hero .hero_box {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 80px;
-    padding: 109px 67px;
+    flex-direction: column;
+    gap: 40px;
   }
   .hero .hero_box .div1 {
     display: flex;
@@ -286,16 +287,17 @@
   }
   .hero .hero_box .div1 .vostoka_title {
     font-family: "Exo2-SemiBold";
-    font-size: 28px;
+    font-size: 23px;
     font-weight: 600;
-    line-height: 65px;
+    line-height: 35px;
   }
   .hero .hero_box .div1 .text_hero {
     font-family: "PTSans-Regular";
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22.5px;
     color: #6B6B6C;
+    text-align: left;
   }
   .hero .hero_box .div1 .katta_text {
     font-family: "PTSans-Bold";
@@ -303,92 +305,104 @@
     font-weight: 700;
     line-height: 24px;
   }
-  .hero .hero_box img {
+  .hero .hero_box .div2 {
     width: 345px;
     height: 253px;
   }
+  .hero .hero_box .div2 img {
+    width: 100%;
+    height: 100%;
+  }
   .hero .hero_box2 {
-    margin-top: 60px;
-    width: 1240px;
-    height: 341px;
+    margin-top: 156px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1490196078);
+    box-shadow: none;
     display: flex;
     justify-content: space-around;
     gap: 60px;
-    padding: 0x;
+    padding: 5px 15px;
   }
   .hero .hero_box2 .div1 {
+    width: 345px;
+    height: 213px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     border-right: 1px solid #D7D7DD;
-    padding-right: 100px;
+    padding: 24px;
   }
   .hero .hero_box2 .div1 img {
-    width: 92px;
-    height: 92px;
+    width: 68px;
+    height: 68px;
   }
   .hero .hero_box2 .div1 .tovaru_title {
     font-family: "Exo2-SemiBold";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 27px;
+    line-height: 24px;
     color: #363738;
   }
   .hero .hero_box2 .div1 .lorem_text {
     font-family: "PTSans-Regular";
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
     color: #6B6B6C;
   }
   .hero .hero_box2 .div2 {
+    width: 345px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     border-right: 1px solid #D7D7DD;
-    padding-right: 100px;
+    padding: 24px;
   }
   .hero .hero_box2 .div2 img {
-    width: 92px;
-    height: 92px;
+    width: 68px;
+    height: 68px;
   }
   .hero .hero_box2 .div2 .tovaru_title {
     font-family: "Exo2-SemiBold";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 27px;
+    line-height: 24px;
     color: #363738;
   }
   .hero .hero_box2 .div2 .lorem_text {
     font-family: "PTSans-Regular";
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
     color: #6B6B6C;
   }
   .hero .hero_box2 .div3 {
+    width: 345px;
+    height: 233px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    border-right: 1px solid #D7D7DD;
+    padding: 24px;
   }
   .hero .hero_box2 .div3 img {
-    width: 92px;
-    height: 92px;
+    width: 68px;
+    height: 68px;
   }
   .hero .hero_box2 .div3 .tovaru_title {
     font-family: "Exo2-SemiBold";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 27px;
+    line-height: 24px;
     color: #363738;
   }
   .hero .hero_box2 .div3 .lorem_text {
     font-family: "PTSans-Regular";
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
     color: #6B6B6C;
   }
 }
@@ -398,19 +412,6 @@
 .main .main_box {
   width: 1240px;
   height: 453px;
-  background-image: url(../img/Rectangle\ 7.png);
-}
-.main .main_box .main_title1 {
-  font-family: "Exo2-SemiBold";
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 60px;
-  color: #FFFFFF;
-  padding: 178px 90px 166px;
-  background-color: #0B7572;
-  width: 769px;
-  height: 453.5px;
-  border-radius: 0px 85% 0px 0px;
 }
 .main .main_box2 {
   padding-top: 72px;
@@ -647,6 +648,339 @@
   font-weight: 600;
   line-height: 21.6px;
 }
+.main .main_box4 {
+  margin-top: 212px;
+  background-color: #0B7572;
+  height: 917px;
+  border: 1px solid rgba(0, 0, 0, 0.2196078431);
+  padding: 85px 66px 85px 81px;
+  display: flex;
+  flex-direction: row;
+  gap: 110px;
+}
+.main .main_box4 .div1_text .client_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+.main .main_box4 .div2_table {
+  width: 652px;
+  height: 747px;
+  background-color: #FFFFFF;
+  padding: 28px 32px 32px 32px;
+}
+.main .main_box4 .div2_table .logo_texts {
+  display: flex;
+  flex-direction: row;
+  gap: 194px;
+  border-bottom: 1px solid #D7D7DD;
+  padding-bottom: 32px;
+}
+.main .main_box4 .div2_table .logo_texts .about_table_text {
+  font-family: "PTSans-Regular";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  color: #6B6B6C;
+}
+.main .main_box4 .div2_table .tables {
+  padding-top: 32px;
+}
+.main .main_box4 .div2_table .tables .table .tr1 {
+  background-color: #0B7572;
+}
+.main .main_box4 .div2_table .tables .table .tr1 .th_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 10px 32px;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .border {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #D7D7DD;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .td_loremText {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: #6B6B6C;
+  padding-left: 25px;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .rubl_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.9px;
+  color: black;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .zavod_text {
+  padding: 25px 23px 40px 16px;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .zavod_text .zavod_title {
+  font-family: "PTSans-Bold";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  padding-bottom: 10px;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .zavod_text .zavod_about {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: #6B6B6C;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .contact_texts {
+  padding: 0px 5px 0px 5px;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .contact_texts .name_title {
+  font-family: "PTSans-Bold";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  padding-bottom: 10px;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .contact_texts .about_contact {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: #6B6B6C;
+  padding-bottom: 10px;
+}
+.main .main_box4 .div2_table .tables .table .tr2 .contact_texts .number_contact {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .border {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #D7D7DD;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .td_loremText {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: #6B6B6C;
+  padding-left: 25px;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .rubl_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.9px;
+  color: black;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .zavod_text {
+  padding: 25px 23px 40px 16px;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .zavod_text .zavod_title {
+  font-family: "PTSans-Bold";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  padding-bottom: 10px;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .zavod_text .zavod_about {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: #6B6B6C;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .contact_texts {
+  padding: 0px 5px 0px 5px;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .contact_texts .name_title {
+  font-family: "PTSans-Bold";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  padding-bottom: 10px;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .contact_texts .about_contact {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: #6B6B6C;
+  padding-bottom: 10px;
+}
+.main .main_box4 .div2_table .tables .table .tr3 .contact_texts .number_contact {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .border {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #D7D7DD;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .td_loremText {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: #6B6B6C;
+  padding-left: 25px;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .rubl_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.9px;
+  color: black;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .zavod_text {
+  padding: 25px 23px 40px 16px;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .zavod_text .zavod_title {
+  font-family: "PTSans-Bold";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  padding-bottom: 10px;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .zavod_text .zavod_about {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: #6B6B6C;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .contact_texts {
+  padding: 0px 5px 0px 5px;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .contact_texts .name_title {
+  font-family: "PTSans-Bold";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  padding-bottom: 10px;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .contact_texts .about_contact {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: #6B6B6C;
+  padding-bottom: 10px;
+}
+.main .main_box4 .div2_table .tables .table .tr4 .contact_texts .number_contact {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+}
+.main .main_box5 {
+  margin-top: 120px;
+}
+.main .main_box5 .stages_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-bottom: 48px;
+}
+.main .main_box5 .stages_divs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.main .main_box5 .stages_divs .stages_1 {
+  padding: 32px 96px;
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  align-items: center;
+  width: 1183px;
+  height: 245px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+  border-radius: 20px;
+}
+.main .main_box5 .stages_divs .stages_1 .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main .main_box5 .stages_divs .stages_1 .texts .title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+.main .main_box5 .stages_divs .stages_1 .texts .lorem_text {
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6B6B6C;
+}
+.main .main_box5 .stages_divs .stages_2 {
+  padding: 32px 96px;
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  align-items: center;
+  width: 1183px;
+  height: 245px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+  border-radius: 20px;
+}
+.main .main_box5 .stages_divs .stages_2 .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main .main_box5 .stages_divs .stages_2 .texts .title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+.main .main_box5 .stages_divs .stages_2 .texts .lorem_text {
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6B6B6C;
+}
+.main .main_box5 .stages_divs .stages_3 {
+  padding: 32px 96px;
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  align-items: center;
+  width: 1183px;
+  height: 245px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+  border-radius: 20px;
+}
+.main .main_box5 .stages_divs .stages_3 .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main .main_box5 .stages_divs .stages_3 .texts .title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+.main .main_box5 .stages_divs .stages_3 .texts .lorem_text {
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6B6B6C;
+}
 
 @media (max-width: 768px) {
   .main {
@@ -655,19 +989,10 @@
   .main .main_box {
     width: 729px;
     height: 383px;
-    background-image: url(../img/Rectangle\ 7.png);
   }
-  .main .main_box .main_title1 {
-    font-family: "Exo2-SemiBold";
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 60px;
-    color: #FFFFFF;
-    padding: 178px 90px 166px;
-    background-color: #0B7572;
-    width: 600px;
-    height: 383px;
-    border-radius: 0px 85% 0px 0px;
+  .main .main_box img {
+    width: 100%;
+    height: 100%;
   }
   .main .main_box2 {
     padding-top: 72px;
@@ -678,6 +1003,7 @@
   }
   .main .main_box3 {
     padding-top: 120px;
+    padding-left: 30px;
   }
   .main .main_box3 .works_title {
     font-family: "Exo2-SemiBold";
@@ -792,6 +1118,2841 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 21.6px;
+  }
+  .main .main_box4 {
+    margin-top: 212px;
+    background-color: #0B7572;
+    height: 971px;
+    width: 760px;
+    border: 1px solid rgba(0, 0, 0, 0.2196078431);
+    padding: 64px 42px 64px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+  }
+  .main .main_box4 .div1_text .client_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FFFFFF;
+  }
+  .main .main_box4 .div2_table {
+    width: 652px;
+    height: 747px;
+    background-color: #FFFFFF;
+    padding: 28px 32px 32px 32px;
+  }
+  .main .main_box4 .div2_table .logo_texts {
+    display: flex;
+    flex-direction: row;
+    gap: 194px;
+    border-bottom: 1px solid #D7D7DD;
+    padding-bottom: 32px;
+  }
+  .main .main_box4 .div2_table .logo_texts .about_table_text {
+    font-family: "PTSans-Regular";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16.5px;
+    color: #6B6B6C;
+  }
+  .main .main_box4 .div2_table .tables {
+    padding-top: 32px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr1 {
+    background-color: #0B7572;
+  }
+  .main .main_box4 .div2_table .tables .table .tr1 .th_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 10px 32px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .border {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #D7D7DD;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .td_loremText {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-left: 25px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .rubl_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.9px;
+    color: black;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .zavod_text {
+    padding: 25px 23px 40px 16px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .zavod_text .zavod_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .zavod_text .zavod_about {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .contact_texts {
+    padding: 0px 5px 0px 5px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .contact_texts .name_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .contact_texts .about_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .contact_texts .number_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .border {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #D7D7DD;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .td_loremText {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-left: 25px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .rubl_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.9px;
+    color: black;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .zavod_text {
+    padding: 25px 23px 40px 16px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .zavod_text .zavod_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .zavod_text .zavod_about {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .contact_texts {
+    padding: 0px 5px 0px 5px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .contact_texts .name_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .contact_texts .about_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .contact_texts .number_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .border {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #D7D7DD;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .td_loremText {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-left: 25px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .rubl_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.9px;
+    color: black;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .zavod_text {
+    padding: 25px 23px 40px 16px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .zavod_text .zavod_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .zavod_text .zavod_about {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .contact_texts {
+    padding: 0px 5px 0px 5px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .contact_texts .name_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .contact_texts .about_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .contact_texts .number_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+  }
+  .main .main_box5 {
+    margin-top: 120px;
+  }
+  .main .main_box5 .stages_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-bottom: 48px;
+  }
+  .main .main_box5 .stages_divs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .main .main_box5 .stages_divs .stages_1 {
+    padding: 32px 96px;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+    width: 693px;
+    height: 245px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+    border-radius: 20px;
+  }
+  .main .main_box5 .stages_divs .stages_1 img {
+    display: none;
+  }
+  .main .main_box5 .stages_divs .stages_1 .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .main .main_box5 .stages_divs .stages_1 .texts .title {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .main .main_box5 .stages_divs .stages_1 .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+  }
+  .main .main_box5 .stages_divs .stages_2 {
+    padding: 32px 96px;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+    width: 690px;
+    height: 245px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+    border-radius: 20px;
+  }
+  .main .main_box5 .stages_divs .stages_2 img {
+    display: none;
+  }
+  .main .main_box5 .stages_divs .stages_2 .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .main .main_box5 .stages_divs .stages_2 .texts .title {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .main .main_box5 .stages_divs .stages_2 .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+  }
+  .main .main_box5 .stages_divs .stages_3 {
+    padding: 32px 96px;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+    width: 690px;
+    height: 245px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+    border-radius: 20px;
+  }
+  .main .main_box5 .stages_divs .stages_3 img {
+    display: none;
+  }
+  .main .main_box5 .stages_divs .stages_3 .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .main .main_box5 .stages_divs .stages_3 .texts .title {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .main .main_box5 .stages_divs .stages_3 .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+  }
+}
+@media (max-width: 380px) {
+  .main .main_box {
+    display: none;
+  }
+  .main .main_box2 {
+    padding-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 38px;
+    padding: 0px 15px;
+  }
+  .main .main_box2 .lock_div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
+  .main .main_box2 .lock_div img {
+    width: 52px;
+    height: 52px;
+  }
+  .main .main_box2 .lock_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .main .main_box2 .lock_div .texts .lorem_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  .main .main_box2 .lock_div .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+  }
+  .main .main_box2 .dollar_div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
+  .main .main_box2 .dollar_div img {
+    width: 52px;
+    height: 52px;
+  }
+  .main .main_box2 .dollar_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .main .main_box2 .dollar_div .texts .lorem_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  .main .main_box2 .dollar_div .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+  }
+  .main .main_box2 .table_div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
+  .main .main_box2 .table_div img {
+    width: 52px;
+    height: 52px;
+  }
+  .main .main_box2 .table_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .main .main_box2 .table_div .texts .lorem_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  .main .main_box2 .table_div .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+  }
+  .main .main_box2 .globe_div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
+  .main .main_box2 .globe_div img {
+    width: 52px;
+    height: 52px;
+  }
+  .main .main_box2 .globe_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .main .main_box2 .globe_div .texts .lorem_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  .main .main_box2 .globe_div .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+  }
+  .main .main_box3 {
+    padding-top: 72px;
+    padding-left: 15px;
+  }
+  .main .main_box3 .works_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #363738;
+    padding-bottom: 32px;
+  }
+  .main .main_box3 .about_works {
+    font-family: "PTSans-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+    padding-bottom: 32px;
+  }
+  .main .main_box3 .works_div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main .main_box3 .works_1 {
+    width: 345px;
+    height: 410px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+  }
+  .main .main_box3 .works_1 img {
+    width: 345px;
+    height: 222px;
+  }
+  .main .main_box3 .works_1 .works_title {
+    padding: 24px 0px 0px 32px;
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  .main .main_box3 .works_1 .works_text {
+    padding: 24px 0px 0px 32px;
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+  }
+  .main .main_box3 .works_1 .work_number {
+    padding: 24px 0px 0px 32px;
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+  }
+  .main .main_box3 .works_2 {
+    display: none;
+  }
+  .main .main_box3 .works_3 {
+    display: none;
+  }
+  .main .main_box4 {
+    margin-top: 212px;
+    background-color: #0B7572;
+    height: 850px;
+    width: 375px;
+    border: 1px solid rgba(0, 0, 0, 0.2196078431);
+    padding: 32px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .main .main_box4 .div1_text .client_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FFFFFF;
+  }
+  .main .main_box4 .div2_table {
+    background-color: #FFFFFF;
+    padding: 28px 32px 32px 32px;
+    width: 345px;
+    height: 507px;
+  }
+  .main .main_box4 .div2_table .logo_texts {
+    display: flex;
+    flex-direction: row;
+    gap: 194px;
+    border-bottom: 1px solid #D7D7DD;
+    padding-bottom: 32px;
+  }
+  .main .main_box4 .div2_table .logo_texts .about_table_text {
+    display: none;
+  }
+  .main .main_box4 .div2_table .tables {
+    padding-top: 32px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr1 {
+    background-color: #0B7572;
+  }
+  .main .main_box4 .div2_table .tables .table .tr1 .th_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 10px 32px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr1 .none {
+    display: none;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .none {
+    display: none;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .border {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #D7D7DD;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .td_loremText {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-left: 25px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .rubl_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.9px;
+    color: black;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .zavod_text {
+    padding: 25px 23px 40px 16px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .zavod_text .zavod_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .zavod_text .zavod_about {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .contact_texts {
+    padding: 0px 5px 0px 5px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .contact_texts .name_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .contact_texts .about_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr2 .contact_texts .number_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .none {
+    display: none;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .border {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #D7D7DD;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .td_loremText {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-left: 25px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .rubl_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.9px;
+    color: black;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .zavod_text {
+    padding: 25px 23px 40px 16px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .zavod_text .zavod_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .zavod_text .zavod_about {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .contact_texts {
+    padding: 0px 5px 0px 5px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .contact_texts .name_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .contact_texts .about_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr3 .contact_texts .number_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .none {
+    display: none;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .border {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #D7D7DD;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .td_loremText {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-left: 25px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .rubl_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.9px;
+    color: black;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .zavod_text {
+    padding: 25px 23px 40px 16px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .zavod_text .zavod_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .zavod_text .zavod_about {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .contact_texts {
+    padding: 0px 5px 0px 5px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .contact_texts .name_title {
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .contact_texts .about_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #6B6B6C;
+    padding-bottom: 10px;
+  }
+  .main .main_box4 .div2_table .tables .table .tr4 .contact_texts .number_contact {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+  }
+  .main .main_box5 {
+    margin-top: 120px;
+  }
+  .main .main_box5 .stages_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-bottom: 48px;
+  }
+  .main .main_box5 .stages_divs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .main .main_box5 .stages_divs .stages_1 {
+    padding: 24px 47px;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+    width: 338px;
+    height: 176px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+    border-radius: 20px;
+  }
+  .main .main_box5 .stages_divs .stages_1 .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .main .main_box5 .stages_divs .stages_1 .texts .title {
+    font-family: "Exo2-SemiBold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+  }
+  .main .main_box5 .stages_divs .stages_1 .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: #6B6B6C;
+  }
+  .main .main_box5 .stages_divs .stages_2 {
+    padding: 24px 47px;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+    width: 338px;
+    height: 176px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+    border-radius: 20px;
+  }
+  .main .main_box5 .stages_divs .stages_2 .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .main .main_box5 .stages_divs .stages_2 .texts .title {
+    font-family: "Exo2-SemiBold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+  }
+  .main .main_box5 .stages_divs .stages_2 .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: #6B6B6C;
+  }
+  .main .main_box5 .stages_divs .stages_3 {
+    padding: 24px 47px;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+    width: 338px;
+    height: 176px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+    border-radius: 20px;
+  }
+  .main .main_box5 .stages_divs .stages_3 .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .main .main_box5 .stages_divs .stages_3 .texts .title {
+    font-family: "Exo2-SemiBold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+  }
+  .main .main_box5 .stages_divs .stages_3 .texts .lorem_text {
+    font-family: "PTSans-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: #6B6B6C;
+  }
+}
+.menu {
+  margin-top: 120px;
+}
+.menu .menu_box .trust_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-bottom: 90px;
+}
+.menu .menu_box .manual_divs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 97px;
+}
+.menu .menu_box .manual_divs .border {
+  border-right: 1px solid #D7D7DD;
+  padding-right: 13px;
+}
+.menu .menu_box .manual_divs .manual_1 {
+  width: 304px;
+  height: 183px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.menu .menu_box .manual_divs .manual_1 img {
+  padding-bottom: 10px;
+}
+.menu .menu_box .manual_divs .manual_1 .logo_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+.menu .menu_box .manual_divs .manual_1 .logo_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #6B6B6C;
+}
+.menu .menu_box .manual_divs .manual_2 {
+  width: 304px;
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.menu .menu_box .manual_divs .manual_2 img {
+  padding-bottom: 10px;
+}
+.menu .menu_box .manual_divs .manual_2 .logo_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+.menu .menu_box .manual_divs .manual_2 .logo_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #6B6B6C;
+}
+.menu .menu_box .manual_divs .manual_3 {
+  width: 304px;
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.menu .menu_box .manual_divs .manual_3 img {
+  padding-bottom: 10px;
+}
+.menu .menu_box .manual_divs .manual_3 .logo_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+.menu .menu_box .manual_divs .manual_3 .logo_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #6B6B6C;
+}
+.menu .menu_box .manual_divs .manual_4 {
+  width: 304px;
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.menu .menu_box .manual_divs .manual_4 img {
+  padding-bottom: 10px;
+}
+.menu .menu_box .manual_divs .manual_4 .logo_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+.menu .menu_box .manual_divs .manual_4 .logo_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #6B6B6C;
+}
+.menu .menu_box .manual_divs .manual_5 {
+  width: 304px;
+  height: 183px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.menu .menu_box .manual_divs .manual_5 img {
+  padding-bottom: 10px;
+}
+.menu .menu_box .manual_divs .manual_5 .logo_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+.menu .menu_box .manual_divs .manual_5 .logo_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #6B6B6C;
+}
+.menu .menu_box .manual_divs .manual_6 {
+  width: 304px;
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.menu .menu_box .manual_divs .manual_6 img {
+  padding-bottom: 10px;
+}
+.menu .menu_box .manual_divs .manual_6 .logo_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+.menu .menu_box .manual_divs .manual_6 .logo_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #6B6B6C;
+}
+.menu .menu_box .manual_divs .manual_7 {
+  width: 304px;
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.menu .menu_box .manual_divs .manual_7 img {
+  padding-bottom: 10px;
+}
+.menu .menu_box .manual_divs .manual_7 .logo_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+.menu .menu_box .manual_divs .manual_7 .logo_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #6B6B6C;
+}
+.menu .menu_box .manual_divs .manual_8 {
+  width: 304px;
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.menu .menu_box .manual_divs .manual_8 img {
+  padding-bottom: 10px;
+}
+.menu .menu_box .manual_divs .manual_8 .logo_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+.menu .menu_box .manual_divs .manual_8 .logo_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #6B6B6C;
+}
+.menu .menu_box2 {
+  margin-top: 130px;
+}
+.menu .menu_box2 .company_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.menu .menu_box2 .company_divs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 24px;
+}
+.menu .menu_box2 .company_divs .company_1 {
+  margin-top: 72px;
+  width: 605px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_1 .div1_company {
+  width: 51px;
+  height: 210px;
+  background-color: #0B7572;
+}
+.menu .menu_box2 .company_divs .company_1 .div2_company {
+  width: 138px;
+  height: 138px;
+}
+.menu .menu_box2 .company_divs .company_1 .div2_company img {
+  width: 100%;
+  height: 100%;
+}
+.menu .menu_box2 .company_divs .company_1 .div3_company .title_name {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+.menu .menu_box2 .company_divs .company_1 .div3_company .work_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+  padding-bottom: 57px;
+}
+.menu .menu_box2 .company_divs .company_1 .div3_company .tarmoq_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_2 {
+  margin-top: 72px;
+  width: 605px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_2 .div1_company {
+  width: 51px;
+  height: 210px;
+  background-color: #0B7572;
+}
+.menu .menu_box2 .company_divs .company_2 .div2_company {
+  width: 138px;
+  height: 138px;
+}
+.menu .menu_box2 .company_divs .company_2 .div2_company img {
+  width: 100%;
+  height: 100%;
+}
+.menu .menu_box2 .company_divs .company_2 .div3_company .title_name {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+.menu .menu_box2 .company_divs .company_2 .div3_company .work_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+  padding-bottom: 57px;
+}
+.menu .menu_box2 .company_divs .company_2 .div3_company .tarmoq_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_3 {
+  margin-top: 72px;
+  width: 605px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_3 .div1_company {
+  width: 51px;
+  height: 210px;
+  background-color: #0B7572;
+}
+.menu .menu_box2 .company_divs .company_3 .div2_company {
+  width: 138px;
+  height: 138px;
+}
+.menu .menu_box2 .company_divs .company_3 .div2_company img {
+  width: 100%;
+  height: 100%;
+}
+.menu .menu_box2 .company_divs .company_3 .div3_company .title_name {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+.menu .menu_box2 .company_divs .company_3 .div3_company .work_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+  padding-bottom: 57px;
+}
+.menu .menu_box2 .company_divs .company_3 .div3_company .tarmoq_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_4 {
+  margin-top: 72px;
+  width: 605px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_4 .div1_company {
+  width: 51px;
+  height: 210px;
+  background-color: #0B7572;
+}
+.menu .menu_box2 .company_divs .company_4 .div2_company {
+  width: 138px;
+  height: 138px;
+}
+.menu .menu_box2 .company_divs .company_4 .div2_company img {
+  width: 100%;
+  height: 100%;
+}
+.menu .menu_box2 .company_divs .company_4 .div3_company .title_name {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+.menu .menu_box2 .company_divs .company_4 .div3_company .work_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+  padding-bottom: 57px;
+}
+.menu .menu_box2 .company_divs .company_4 .div3_company .tarmoq_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_5 {
+  margin-top: 72px;
+  width: 605px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_5 .div1_company {
+  width: 51px;
+  height: 210px;
+  background-color: #0B7572;
+}
+.menu .menu_box2 .company_divs .company_5 .div2_company {
+  width: 138px;
+  height: 138px;
+}
+.menu .menu_box2 .company_divs .company_5 .div2_company img {
+  width: 100%;
+  height: 100%;
+}
+.menu .menu_box2 .company_divs .company_5 .div3_company .title_name {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+.menu .menu_box2 .company_divs .company_5 .div3_company .work_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+  padding-bottom: 57px;
+}
+.menu .menu_box2 .company_divs .company_5 .div3_company .tarmoq_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_6 {
+  margin-top: 72px;
+  width: 605px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+.menu .menu_box2 .company_divs .company_6 .div1_company {
+  width: 51px;
+  height: 210px;
+  background-color: #0B7572;
+}
+.menu .menu_box2 .company_divs .company_6 .div2_company {
+  width: 138px;
+  height: 138px;
+}
+.menu .menu_box2 .company_divs .company_6 .div2_company img {
+  width: 100%;
+  height: 100%;
+}
+.menu .menu_box2 .company_divs .company_6 .div3_company .title_name {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+.menu .menu_box2 .company_divs .company_6 .div3_company .work_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+  padding-bottom: 57px;
+}
+.menu .menu_box2 .company_divs .company_6 .div3_company .tarmoq_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.menu .menu_box3 {
+  margin-top: 130px;
+}
+.menu .menu_box3 .contact_title {
+  font-family: "Exo2-SemiBold";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-bottom: 94px;
+}
+.menu .menu_box3 .contact_divs {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
+.menu .menu_box3 .contact_divs .div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding-left: 50px;
+}
+.menu .menu_box3 .contact_divs .div1 .phone_div {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+}
+.menu .menu_box3 .contact_divs .div1 .phone_div .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.menu .menu_box3 .contact_divs .div1 .phone_div .texts .name_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+}
+.menu .menu_box3 .contact_divs .div1 .phone_div .texts .phone_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.menu .menu_box3 .contact_divs .div1 .email_div {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+}
+.menu .menu_box3 .contact_divs .div1 .email_div .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.menu .menu_box3 .contact_divs .div1 .email_div .texts .name_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+}
+.menu .menu_box3 .contact_divs .div1 .email_div .texts .phone_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.menu .menu_box3 .contact_divs .div1 .whatsap_div {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+}
+.menu .menu_box3 .contact_divs .div1 .whatsap_div .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.menu .menu_box3 .contact_divs .div1 .whatsap_div .texts .name_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+}
+.menu .menu_box3 .contact_divs .div1 .whatsap_div .texts .phone_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.menu .menu_box3 .contact_divs .div1 .skype_div {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+}
+.menu .menu_box3 .contact_divs .div1 .skype_div .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.menu .menu_box3 .contact_divs .div1 .skype_div .texts .name_text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+}
+.menu .menu_box3 .contact_divs .div1 .skype_div .texts .phone_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.menu .menu_box3 .contact_divs .div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border: 1px solid #E9EAF2;
+  background-color: #E9EAF2;
+  padding: 40px 48px;
+  width: 794px;
+}
+.menu .menu_box3 .contact_divs .div2 .Full_name {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+}
+.menu .menu_box3 .contact_divs .div2 .Full_name .name_title {
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6B6B6C;
+}
+.menu .menu_box3 .contact_divs .div2 .Full_name .name_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.menu .menu_box3 .contact_divs .div2 .code {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+}
+.menu .menu_box3 .contact_divs .div2 .code .name_title {
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6B6B6C;
+}
+.menu .menu_box3 .contact_divs .div2 .code .name_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.menu .menu_box3 .contact_divs .div2 .code_kpp {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+}
+.menu .menu_box3 .contact_divs .div2 .code_kpp .name_title {
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6B6B6C;
+}
+.menu .menu_box3 .contact_divs .div2 .code_kpp .name_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.menu .menu_box3 .contact_divs .div2 .code_ogrn {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+}
+.menu .menu_box3 .contact_divs .div2 .code_ogrn .name_title {
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6B6B6C;
+}
+.menu .menu_box3 .contact_divs .div2 .code_ogrn .name_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.menu .menu_box3 .contact_divs .div2 .addres {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+}
+.menu .menu_box3 .contact_divs .div2 .addres .name_title {
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6B6B6C;
+}
+.menu .menu_box3 .contact_divs .div2 .addres .name_text {
+  font-family: "Exo2-SemiBold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  .menu .menu_box .border {
+    border-right: 1px solid #D7D7DD;
+    padding-right: 13px;
+    row-gap: 0px;
+  }
+  .menu .menu_box .manual_divs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .menu .menu_box2 .company_divs .company_1 {
+    width: 330px;
+    height: 279px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div1_company {
+    width: 51px;
+    height: 287px;
+    background-color: #0B7572;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div2_company {
+    width: 108px;
+    height: 108px;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div2_company img {
+    width: 100%;
+    height: 100%;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div3_company .title_name {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 12px;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div3_company .work_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+    padding-bottom: 27px;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div3_company .tarmoq_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_2 {
+    width: 330px;
+    height: 279px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div1_company {
+    width: 51px;
+    height: 287px;
+    background-color: #0B7572;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div2_company {
+    width: 108px;
+    height: 108px;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div2_company img {
+    width: 100%;
+    height: 100%;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div3_company .title_name {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 12px;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div3_company .work_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+    padding-bottom: 27px;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div3_company .tarmoq_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_3 {
+    width: 330px;
+    height: 279px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div1_company {
+    width: 51px;
+    height: 287px;
+    background-color: #0B7572;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div2_company {
+    width: 108px;
+    height: 108px;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div2_company img {
+    width: 100%;
+    height: 100%;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div3_company .title_name {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 12px;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div3_company .work_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+    padding-bottom: 27px;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div3_company .tarmoq_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_4 {
+    width: 330px;
+    height: 279px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu .menu_box2 .company_divs .company_4 .div1_company {
+    width: 51px;
+    height: 287px;
+    background-color: #0B7572;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .menu .menu_box2 .company_divs .company_4 .div2_company {
+    width: 108px;
+    height: 108px;
+  }
+  .menu .menu_box2 .company_divs .company_4 .div2_company img {
+    width: 100%;
+    height: 100%;
+  }
+  .menu .menu_box2 .company_divs .company_4 .div3_company .title_name {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 12px;
+  }
+  .menu .menu_box2 .company_divs .company_4 .div3_company .work_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+    padding-bottom: 27px;
+  }
+  .menu .menu_box2 .company_divs .company_4 .div3_company .tarmoq_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_5 {
+    display: none;
+  }
+  .menu .menu_box2 .company_divs .company_6 {
+    display: none;
+  }
+  .menu .menu_box3 {
+    margin-top: 130px;
+  }
+  .menu .menu_box3 .contact_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-bottom: 94px;
+  }
+  .menu .menu_box3 .contact_divs {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .menu .menu_box3 .contact_divs .div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    padding-left: 50px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .phone_div {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+  }
+  .menu .menu_box3 .contact_divs .div1 .phone_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .phone_div .texts .name_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div1 .phone_div .texts .phone_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .email_div {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+  }
+  .menu .menu_box3 .contact_divs .div1 .email_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .email_div .texts .name_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div1 .email_div .texts .phone_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .whatsap_div {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+  }
+  .menu .menu_box3 .contact_divs .div1 .whatsap_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .whatsap_div .texts .name_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div1 .whatsap_div .texts .phone_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .skype_div {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+  }
+  .menu .menu_box3 .contact_divs .div1 .skype_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .skype_div .texts .name_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div1 .skype_div .texts .phone_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .menu .menu_box3 .contact_divs .div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid #E9EAF2;
+    background-color: #E9EAF2;
+    padding: 40px 48px;
+    width: 734px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .Full_name {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .Full_name .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .Full_name .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_kpp {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_kpp .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_kpp .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_ogrn {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_ogrn .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_ogrn .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .addres {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .addres .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .addres .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .menu {
+    margin-top: 120px;
+  }
+  .menu .menu_box .trust_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  .menu .menu_box .manual_divs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 97px;
+  }
+  .menu .menu_box .manual_divs .border {
+    border-right: 1px solid #D7D7DD;
+    padding-right: 13px;
+  }
+  .menu .menu_box .manual_divs .manual_1 {
+    width: 234px;
+    height: 183px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .menu .menu_box .manual_divs .manual_1 img {
+    padding-bottom: 10px;
+  }
+  .menu .menu_box .manual_divs .manual_1 .logo_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+  }
+  .menu .menu_box .manual_divs .manual_1 .logo_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #6B6B6C;
+  }
+  .menu .menu_box .manual_divs .manual_2 {
+    width: 234px;
+    height: 183px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .menu .menu_box .manual_divs .manual_2 img {
+    padding-bottom: 10px;
+  }
+  .menu .menu_box .manual_divs .manual_2 .logo_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+  }
+  .menu .menu_box .manual_divs .manual_2 .logo_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #6B6B6C;
+  }
+  .menu .menu_box .manual_divs .manual_3 {
+    width: 224px;
+    height: 183px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .menu .menu_box .manual_divs .manual_3 img {
+    padding-bottom: 10px;
+  }
+  .menu .menu_box .manual_divs .manual_3 .logo_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+  }
+  .menu .menu_box .manual_divs .manual_3 .logo_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #6B6B6C;
+  }
+  .menu .menu_box .manual_divs .manual_4 {
+    width: 214px;
+    height: 183px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .menu .menu_box .manual_divs .manual_4 img {
+    padding-bottom: 10px;
+  }
+  .menu .menu_box .manual_divs .manual_4 .logo_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+  }
+  .menu .menu_box .manual_divs .manual_4 .logo_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #6B6B6C;
+  }
+  .menu .menu_box .manual_divs .manual_5 {
+    display: none;
+  }
+  .menu .menu_box .manual_divs .manual_6 {
+    display: none;
+  }
+  .menu .menu_box .manual_divs .manual_7 {
+    display: none;
+  }
+  .menu .menu_box .manual_divs .manual_8 {
+    display: none;
+  }
+  .menu .menu_box2 {
+    margin-top: 130px;
+  }
+  .menu .menu_box2 .company_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  .menu .menu_box2 .company_divs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 24px;
+  }
+  .menu .menu_box2 .company_divs .company_1 {
+    margin-top: 72px;
+    width: 345px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div1_company {
+    width: 51px;
+    height: 275px;
+    background-color: #0B7572;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div2_company {
+    width: 100px;
+    height: 100px;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div2_company img {
+    width: 100%;
+    height: 100%;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div3_company .title_name {
+    font-family: "Exo2-SemiBold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    padding-bottom: 12px;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div3_company .work_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+    padding-bottom: 57px;
+  }
+  .menu .menu_box2 .company_divs .company_1 .div3_company .tarmoq_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_2 {
+    margin-top: 72px;
+    width: 345px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div1_company {
+    width: 51px;
+    height: 275px;
+    background-color: #0B7572;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div2_company {
+    width: 100px;
+    height: 100px;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div2_company img {
+    width: 100%;
+    height: 100%;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div3_company .title_name {
+    font-family: "Exo2-SemiBold";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21.6px;
+    padding-bottom: 12px;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div3_company .work_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+    padding-bottom: 57px;
+  }
+  .menu .menu_box2 .company_divs .company_2 .div3_company .tarmoq_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_3 {
+    margin-top: 72px;
+    width: 345px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div1_company {
+    width: 51px;
+    height: 275px;
+    background-color: #0B7572;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div2_company {
+    width: 100px;
+    height: 100px;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div2_company img {
+    width: 100%;
+    height: 100%;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div3_company .title_name {
+    font-family: "Exo2-SemiBold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    padding-bottom: 12px;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div3_company .work_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+    padding-bottom: 57px;
+  }
+  .menu .menu_box2 .company_divs .company_3 .div3_company .tarmoq_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .menu .menu_box2 .company_divs .company_4 {
+    display: none;
+  }
+  .menu .menu_box2 .company_divs .company_5 {
+    display: none;
+  }
+  .menu .menu_box2 .company_divs .company_6 {
+    display: none;
+  }
+  .menu .menu_box3 {
+    margin-top: 130px;
+  }
+  .menu .menu_box3 .contact_title {
+    font-family: "Exo2-SemiBold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-bottom: 94px;
+  }
+  .menu .menu_box3 .contact_divs {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .menu .menu_box3 .contact_divs .div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    padding-left: 50px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .phone_div {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+  }
+  .menu .menu_box3 .contact_divs .div1 .phone_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .phone_div .texts .name_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div1 .phone_div .texts .phone_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .email_div {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+  }
+  .menu .menu_box3 .contact_divs .div1 .email_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .email_div .texts .name_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div1 .email_div .texts .phone_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .whatsap_div {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+  }
+  .menu .menu_box3 .contact_divs .div1 .whatsap_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .whatsap_div .texts .name_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div1 .whatsap_div .texts .phone_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .skype_div {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+  }
+  .menu .menu_box3 .contact_divs .div1 .skype_div .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .menu .menu_box3 .contact_divs .div1 .skype_div .texts .name_text {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div1 .skype_div .texts .phone_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .menu .menu_box3 .contact_divs .div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid #E9EAF2;
+    background-color: #E9EAF2;
+    padding: 40px 48px;
+    width: 345px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .Full_name {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .Full_name .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .Full_name .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_kpp {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_kpp .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_kpp .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_ogrn {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_ogrn .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .code_ogrn .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .addres {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .menu .menu_box3 .contact_divs .div2 .addres .name_title {
+    font-family: "PTSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6C;
+  }
+  .menu .menu_box3 .contact_divs .div2 .addres .name_text {
+    font-family: "Exo2-SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}
+.bottomIMg {
+  margin: 46px 130px;
+}
+.bottomIMg .play_icon {
+  position: absolute;
+  top: 7713px;
+  left: 687px;
+}
+.bottomIMg .play_icons {
+  position: absolute;
+  top: 7728px;
+  left: 707px;
+}
+
+@media (max-width: 768px) {
+  .bottomIMg {
+    margin: 46px 64px;
+  }
+  .bottomIMg .botom_img {
+    width: 675px;
+    height: 405px;
+  }
+  .bottomIMg .play_icon {
+    display: none;
+  }
+  .bottomIMg .play_icons {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .bottomIMg {
+    margin: 20px 22px;
+  }
+  .bottomIMg .botom_img {
+    width: 327px;
+    height: 196px;
+  }
+  .bottomIMg .play_icon {
+    display: none;
+  }
+  .bottomIMg .play_icons {
+    display: none;
+  }
+}
+.footer {
+  width: 100%;
+  height: 365px;
+  background-color: #0B7572;
+  padding: 60px 95px;
+}
+.footer .footer_box {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+.footer .footer_box .links_a {
+  display: flex;
+  flex-direction: row;
+  gap: 97px;
+}
+.footer .footer_box .logo_div .logo_title {
+  font-family: "FamiljenGrotesk-Medium";
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 90px;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+}
+.footer .footer_box .katalog_div {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer .footer_box .katalog_div .a_link {
+  font-family: "Exo2-Medium";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+}
+.footer .footer_box .model_div {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer .footer_box .model_div .a_link {
+  font-family: "Exo2-Medium";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+}
+.footer .footer_box .tarmoq_div {
+  padding-top: 20px;
+}
+.footer .footer_box .tarmoq_div .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+}
+.footer .footer_box .tarmoq_div .number_phone {
+  padding-top: 32px;
+  font-family: "Exo2-SemiBold";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: #FFFFFF;
+}
+.footer .footer_box .tarmoq_div .consult {
+  margin-top: 32px;
+  width: 271px;
+  height: 42px;
+  border: 1px solid #FF9619;
+  background-color: #FF9619;
+  color: #FFFFFF;
+  font-family: "OpenSans-SemiBold";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  padding: 7px 8px 7px 11px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 100%;
+    height: 365px;
+    background-color: #0B7572;
+    padding: 60px 95px;
+  }
+  .footer .links_a {
+    display: flex;
+    flex-direction: row;
+    gap: 74px;
+  }
+  .footer .footer_box {
+    display: flex;
+    flex-direction: row;
+    gap: 71px;
+  }
+  .footer .footer_box .logo_div .logo_title {
+    font-family: "FamiljenGrotesk-Medium";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+  }
+  .footer .footer_box .katalog_div {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer .footer_box .katalog_div .a_link {
+    font-family: "Exo2-Medium";
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 19.5px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+  }
+  .footer .footer_box .model_div {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .footer .footer_box .model_div .a_link {
+    font-family: "Exo2-Medium";
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 19.5px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+  }
+  .footer .footer_box .tarmoq_div {
+    padding-top: 20px;
+  }
+  .footer .footer_box .tarmoq_div .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+  }
+  .footer .footer_box .tarmoq_div .number_phone {
+    padding-top: 32px;
+    font-family: "Exo2-SemiBold";
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #FFFFFF;
+  }
+  .footer .footer_box .tarmoq_div .consult {
+    margin-top: 32px;
+    width: 143px;
+    height: 21px;
+    border: 1px solid #FF9619;
+    background-color: #FF9619;
+    color: #FFFFFF;
+    font-family: "OpenSans-SemiBold";
+    font-size: 6px;
+    font-weight: 600;
+    line-height: 19.5px;
+    padding: 0px 6px;
+  }
+}
+@media (max-width: 380px) {
+  .footer {
+    width: 100%;
+    height: 631px;
+    background-color: #0B7572;
+    padding: 14px 45px;
+  }
+  .footer .footer_box {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+  .footer .footer_box .links_a {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .footer .footer_box .logo_div .logo_title {
+    font-family: "FamiljenGrotesk-Medium";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+  }
+  .footer .footer_box .katalog_div {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer .footer_box .katalog_div .a_link {
+    font-family: "Exo2-Medium";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+  }
+  .footer .footer_box .model_div {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer .footer_box .model_div .a_link {
+    font-family: "Exo2-Medium";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+  }
+  .footer .footer_box .tarmoq_div {
+    padding-top: 20px;
+  }
+  .footer .footer_box .tarmoq_div .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+  }
+  .footer .footer_box .tarmoq_div .number_phone {
+    padding-top: 32px;
+    font-family: "Exo2-SemiBold";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #FFFFFF;
+  }
+  .footer .footer_box .tarmoq_div .consult {
+    margin-top: 32px;
+    width: 271px;
+    height: 42px;
+    border: 1px solid #FF9619;
+    background-color: #FF9619;
+    color: #FFFFFF;
+    font-family: "OpenSans-SemiBold";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    padding: 7px 8px 7px 11px;
   }
 }
 * {
